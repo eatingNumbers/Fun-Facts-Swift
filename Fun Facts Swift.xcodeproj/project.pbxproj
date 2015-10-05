@@ -47,6 +47,7 @@
 		3CECF9C91BC2B38D00C335AC /* Fun Facts SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun Facts SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CECF9CD1BC2B38D00C335AC /* Fun_Facts_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_Facts_SwiftUITests.swift; sourceTree = "<group>"; };
 		3CECF9CF1BC2B38D00C335AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CECF9DD1BC2BDC300C335AC /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				3CECF9C11BC2B38D00C335AC /* Fun Facts SwiftTests */,
 				3CECF9CC1BC2B38D00C335AC /* Fun Facts SwiftUITests */,
 				3CECF9AB1BC2B38D00C335AC /* Products */,
+				3CECF9DC1BC2BD2300C335AC /* Playgrounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +125,15 @@
 				3CECF9CF1BC2B38D00C335AC /* Info.plist */,
 			);
 			path = "Fun Facts SwiftUITests";
+			sourceTree = "<group>";
+		};
+		3CECF9DC1BC2BD2300C335AC /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				3CECF9DD1BC2BDC300C335AC /* Scratchpad.playground */,
+			);
+			name = Playgrounds;
+			path = "Fun Facts Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,6 +492,7 @@
 				3CECF9D41BC2B38D00C335AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CECF9D51BC2B38D00C335AC /* Build configuration list for PBXNativeTarget "Fun Facts SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +501,7 @@
 				3CECF9D71BC2B38D00C335AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CECF9D81BC2B38D00C335AC /* Build configuration list for PBXNativeTarget "Fun Facts SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +510,7 @@
 				3CECF9DA1BC2B38D00C335AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
