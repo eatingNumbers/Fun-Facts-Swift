@@ -27,11 +27,17 @@
                                 <rect key="frame" x="70" y="269" width="180" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Show Another Fun Fact"/>
+                                <connections>
+                                    <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="t6k-So-UnM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="funFactLabel" destination="GyX-NK-6nX" id="yAy-mV-hFN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
