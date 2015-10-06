@@ -33,24 +33,37 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyX-NK-6nX">
-                                <rect key="frame" x="48" y="200" width="216" height="41"/>
+                                <rect key="frame" x="44" y="200" width="216" height="90"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="9rb-5J-7Zu"/>
+                                    <constraint firstAttribute="height" constant="90" id="9rb-5J-7Zu"/>
                                     <constraint firstAttribute="width" constant="216" id="FcI-Dc-UPn"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did You Know?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="co6-wq-Kz8">
+                                <rect key="frame" x="44" y="60" width="128" height="22"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="i7P-5H-mk7"/>
+                                    <constraint firstAttribute="height" constant="22" id="iVR-EM-CXb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.50390625" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="co6-wq-Kz8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="3un-jQ-wYT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vUe-sY-lbh" secondAttribute="bottom" constant="59" id="Gps-xm-G9z"/>
                             <constraint firstItem="GyX-NK-6nX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="ZrS-AP-0EP"/>
-                            <constraint firstItem="GyX-NK-6nX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="p0q-bk-eSe"/>
+                            <constraint firstItem="GyX-NK-6nX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="p0q-bk-eSe"/>
                             <constraint firstItem="vUe-sY-lbh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="vDc-lL-mLm"/>
+                            <constraint firstItem="co6-wq-Kz8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="wZu-dv-zcU"/>
                         </constraints>
                     </view>
                     <connections>
