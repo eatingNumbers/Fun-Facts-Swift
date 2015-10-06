@@ -14,6 +14,7 @@
 		3CECF9B81BC2B38D00C335AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CECF9B61BC2B38D00C335AC /* LaunchScreen.storyboard */; };
 		3CECF9C31BC2B38D00C335AC /* Fun_Facts_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CECF9C21BC2B38D00C335AC /* Fun_Facts_SwiftTests.swift */; };
 		3CECF9CE1BC2B38D00C335AC /* Fun_Facts_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CECF9CD1BC2B38D00C335AC /* Fun_Facts_SwiftUITests.swift */; };
+		3CECF9E11BC3367300C335AC /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CECF9E01BC3367300C335AC /* FactBook.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3CECF9CD1BC2B38D00C335AC /* Fun_Facts_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_Facts_SwiftUITests.swift; sourceTree = "<group>"; };
 		3CECF9CF1BC2B38D00C335AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CECF9DD1BC2BDC300C335AC /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
+		3CECF9E01BC3367300C335AC /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3CECF9AD1BC2B38D00C335AC /* AppDelegate.swift */,
 				3CECF9AF1BC2B38D00C335AC /* ViewController.swift */,
 				3CECF9B11BC2B38D00C335AC /* Main.storyboard */,
+				3CECF9E01BC3367300C335AC /* FactBook.swift */,
 				3CECF9B41BC2B38D00C335AC /* Assets.xcassets */,
 				3CECF9B61BC2B38D00C335AC /* LaunchScreen.storyboard */,
 				3CECF9B91BC2B38D00C335AC /* Info.plist */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CECF9E11BC3367300C335AC /* FactBook.swift in Sources */,
 				3CECF9B01BC2B38D00C335AC /* ViewController.swift in Sources */,
 				3CECF9AE1BC2B38D00C335AC /* AppDelegate.swift in Sources */,
 			);

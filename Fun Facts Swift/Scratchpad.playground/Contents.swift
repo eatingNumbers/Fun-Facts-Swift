@@ -2,4 +2,4 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var randomNumber = Int(arc4random_uniform(10))
