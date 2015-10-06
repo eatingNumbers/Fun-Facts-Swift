@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3216751BC3633B005B72E4 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3216741BC3633B005B72E4 /* ColorWheel.swift */; settings = {ASSET_TAGS = (); }; };
 		3CECF9AE1BC2B38D00C335AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CECF9AD1BC2B38D00C335AC /* AppDelegate.swift */; };
 		3CECF9B01BC2B38D00C335AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CECF9AF1BC2B38D00C335AC /* ViewController.swift */; };
 		3CECF9B31BC2B38D00C335AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CECF9B11BC2B38D00C335AC /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3216741BC3633B005B72E4 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 		3CECF9AA1BC2B38D00C335AC /* Fun Facts Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun Facts Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CECF9AD1BC2B38D00C335AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CECF9AF1BC2B38D00C335AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				3CECF9AD1BC2B38D00C335AC /* AppDelegate.swift */,
 				3CECF9AF1BC2B38D00C335AC /* ViewController.swift */,
 				3CECF9B11BC2B38D00C335AC /* Main.storyboard */,
+				3C3216741BC3633B005B72E4 /* ColorWheel.swift */,
 				3CECF9E01BC3367300C335AC /* FactBook.swift */,
 				3CECF9B41BC2B38D00C335AC /* Assets.xcassets */,
 				3CECF9B61BC2B38D00C335AC /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				3CECF9E11BC3367300C335AC /* FactBook.swift in Sources */,
 				3CECF9B01BC2B38D00C335AC /* ViewController.swift in Sources */,
 				3CECF9AE1BC2B38D00C335AC /* AppDelegate.swift in Sources */,
+				3C3216751BC3633B005B72E4 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
